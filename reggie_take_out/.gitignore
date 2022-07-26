@@ -1,36 +1,29 @@
+# Project exclude paths
+/target/
+ \# Compiled class file
 *.class
-*.log
-*.lock
 
-# Package Files #
+\# Log file
+*.log
+
+\# BlueJ files
+*.ctxt
+
+\# Mobile Tools for Java (J2ME)
+.mtj.tmp/# Package Files #
 *.jar
 *.war
+*.nar
 *.ear
-target/
+*.zip
+*.tar.gz
+*.rar
 
-# idea
-.idea/
-*.iml/
+hs_err_pid*
 
-*velocity.log*
-
-### STS ###
-.apt_generated
-.factorypath
-.springBeans
-
-### IntelliJ IDEA ###
-*.iml
-*.ipr
-*.iws
-.idea
 .classpath
 .project
-.settings/
-bin/
-
-*.log
-tem/
-
-#rebel
-*rebel.xml*
+.settings
+target
+.idea
+*.iml
